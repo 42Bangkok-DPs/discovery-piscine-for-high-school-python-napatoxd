@@ -5,7 +5,8 @@ def main():
 ..
 .K\
 """
-        
+    board = board.strip().splitlines()
+
     is_king_in_check(board)
 
 if __name__ == "__main__":
